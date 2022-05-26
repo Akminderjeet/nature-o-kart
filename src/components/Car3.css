@@ -1,0 +1,42 @@
+.fle-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    
+}
+.imggg{
+    background-image:url(../images/logo3.gif);
+    width: 50%;
+   height: 90vh;
+    background-size: cover;
+   
+}
+
+.imgggg{
+    background-image:url(../images/logo4.gif);
+    width: 50%;
+   height: 90vh;
+    background-size: cover;
+  
+ 
+}
+.text{
+    width: 50%;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+.btnn{border: none;
+ background-color: black;
+ color:white;
+ padding: 5px;
+ box-sizing: border-box;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.pad{padding: 0px;
+    margin: 0px;
+  
+    box-sizing: border-box;
+
+}
+.im1{color: blanchedalmond;
+    background-image: url(../pics/profile.jpg);
+    background-size: cover;
+    width: 100%;box-sizing: border-box;height: 100%;position:absolute;margin-left: 20%;z-index:1;border-radius: 2%;
+ }
+.im1:hover{
+   transform: translateX(-20%);
+   transition: ease all 2s;
+}
+
+.im2{color: blanchedalmond;
+    background-image: url(../pics/pricetags.jpg);
+    background-size: cover;
+    width: 100%;box-sizing: border-box;height: 100%;position:absolute;margin-left: 40%;z-index:2;border-radius: 2%;
+   
+}
+.im2:hover{
+    transform: translateX(-20%);
+    transition: ease all 2s;
+   
+}
+
+.im3{
+    background-image: url(../pics/database.jpg);
+    background-size: cover;
+    width: 100%;height: 100%;position:absolute;z-index: 3;margin-left: 60%;border-radius: 2%;box-sizing: border-box;
+   
+}
+.im3:hover{
+  
+    transform: translateX(-20%);
+    transition: ease all 2s;
+}
+.req :hover cont{
+
+}
+@media screen and (max-width: 400px) {
+  
+    
+.im1{color: blanchedalmond;
+    background-image: url(../pics/profile.jpg);
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    position:absolute;
+    margin-top: 20%;
+    z-index:1;
+    border-radius: 2%;
+ }
+.im1:hover{
+   transform: translateY(-20%);
+   transform: translateX(-20%);
+   transition: ease all 2s;
+}
+
+.im2{color: blanchedalmond;
+    background-image: url(../pics/pricetags.jpg);
+    background-size: cover;
+    width: 100%;box-sizing: border-box;height: 100vh;position:absolute;margin-top: 40%;z-index:2;border-radius: 2%;
+   
+}
+.im2:hover{
+    transform: translateY(-40%);
+    transform: translateX(-40%);
+    transition: ease all 2s;
+   
+}
+
+.im3{
+    background-image: url(../pics/database.jpg);
+    background-size: cover;
+    width: 100%;height: 100vh;position:absolute;z-index: 3;margin-top: 60%;border-radius: 2%;box-sizing: border-box;
+   
+}
+.im3:hover{
+  
+    transform: translateY(-60%);
+    transform: translateX(-60%);
+    transition: ease all 2s;
+}
+  }

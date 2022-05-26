@@ -20,8 +20,8 @@ const Post = ({ post, setCurrentId }) => {
     return (<Card className={classes.card}>
         <CardMedia className={classes.media} image={post.selectedFile || 'https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png'} title={post.title} />
         <div className={classes.overlay}>
-            <Typography variant="h6">{post.creator}</Typography>
-            <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
+            <Typography variant="h6">{post.fruit}</Typography>
+
         </div>
         <div className={classes.overlay2}>
             <Button style={{ color: 'white' }} size="small" onClick={() => {
@@ -35,10 +35,10 @@ const Post = ({ post, setCurrentId }) => {
             <Typography variant="body2" color="textSecondary" component="h2"></Typography>
         </div>
         <CardContent>
-            <Typography variant="body2" color="textSecondary" component="p">{post.message}</Typography>
+            <Typography variant="body2" color="textSecondary" component="p">{post.title}</Typography>
         </CardContent>
         <CardActions className={classes.cardActions}>
-            <Button size="small" color="primary" ><ThumbUpAltIcon fontSize="small" /> Like {post.likeCount} </Button>
+            <Button size="small" color="primary" >{post.price}</Button>
             <Button size="small" color="primary" onClick={() => dispatch(deletePost(post._id))} ><DeleteIcon fontSize="small" /> Delete</Button>
         </CardActions>
 

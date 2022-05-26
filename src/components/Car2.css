@@ -1,0 +1,40 @@
+.fle-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    
+}
+.imgg{
+    background-image:url(../images/logo2.gif);
+    width: 50%;
+   height: 90vh;
+    background-size: cover;
+    border-radius: 50%;
+ 
+}
+.text{
+    width: 50%;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+.btnn{border: none;
+ background-color: black;
+ color:white;
+ padding: 5px;
+ box-sizing: border-box;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: black;
+}
+.content-side{
+   display: flex;
+   flex-direction: row;
+    align-items:flex-end;
+    justify-content: right;
+}
